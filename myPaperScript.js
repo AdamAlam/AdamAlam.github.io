@@ -146,7 +146,6 @@ function onKeyDown(event){
 		newCircle.fillColor = genRand();
 		keyData[event.key].sound.play();
 		circles.push(newCircle)
-		console.log(circles);
 	}
 	// removes the circle from the array after 1.4s
 	setTimeout(function(){circles.shift()}, 1400);
